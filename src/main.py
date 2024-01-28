@@ -1,0 +1,4 @@
+from qbittorrent.qbittorrent import start_torrent
+from get_magnet_links.get_magnet_links import scrape_website
+
+start_torrent(scrape_website)
